@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(180deg, #181818 0%, #232323 100%) !important;
+  color: #fff;
+}
+
+.MuiCard-root {
+  background: #181818 !important;
+  color: #fff !important;
+  border-radius: 18px !important;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.3) !important;
+}
+
+.MuiButton-contained {
+  background: #ff881a !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  border-radius: 12px !important;
+  box-shadow: none !important;
+}
+.MuiButton-contained:hover {
+  background: #ff9900 !important;
+}
+
+.MuiFormControl-root {
+  background: #232323 !important;
+  border-radius: 8px !important;
+}
+
+.MuiInputLabel-root {
+  color: #fff !important;
+}
+
+.MuiSelect-select {
+  color: #fff !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.selected-skip-card {
+  box-shadow: 0 0 0 4px #ff881a, 0 4px 24px 0 rgba(0,0,0,0.3) !important;
+  transition: box-shadow 0.2s;
+}
